@@ -1,0 +1,8 @@
+{
+  "name": "nuxt-module",
+  "version": "0.0.1",
+  "description": "Nuxt module tutorial",
+  "private": true,
+  "main": "module.js",
+  "license": "MIT"
+}
