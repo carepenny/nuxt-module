@@ -1,6 +1,6 @@
 // middleware/index.js
 import Middleware from '../../middleware'
-const options = <%= JSON.stringify(options) %>
+const options = JSON.parse(`<%= JSON.stringify(options) %>`)
 const { namespace } = options
 Middleware[namespace] = context => {
   const { route, store, app } = context

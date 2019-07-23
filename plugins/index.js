@@ -1,7 +1,7 @@
 // plugins/index.js
 import * as helpers from './helpers/index.js'
 // get the options out using lodash templates
-const options = <%= JSON.stringify(options) %>
+const options = JSON.parse(`<%= JSON.stringify(options) %>`)
 // extract the namespace from the options
 const { namespace } = options
 // create the plugin

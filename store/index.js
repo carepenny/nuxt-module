@@ -1,7 +1,7 @@
 // store/index.js
 import counterModule from './modules/counter'
 // get the options out using lodash templates
-const options = <%= JSON.stringify(options) %>
+const options = JSON.parse(`<%= JSON.stringify(options) %>`)
 // extract the namespace var
 const { namespace } = options
 // create the plugin
